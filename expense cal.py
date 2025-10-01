@@ -46,7 +46,7 @@ def calculate_total():
         total = total + int(lines[i])
         i = i + 2
 
-    print("\nTotal Expenses =", total, "\n")
+    print("\n   Total Expenses =", total, "\n")
 
 
 def main():
@@ -69,7 +69,7 @@ def main():
             print("Exiting - Goodbye! 👋")
             break
         else:
-            print("Invalid choice. Please try again.")
+            print("Wrong choice. Please try again.")
 
 
 main()
